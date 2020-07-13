@@ -1,0 +1,19 @@
+.container-servicii{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box{
+  border-right: none;
+  border-bottom: 1px solid #000000ea;
+}
+
+.box:nth-child(1), 
+.box:nth-child(3){
+  border-right: 1px solid #000000ea;
+}
+
+.box:nth-child(3),
+.box:nth-child(4){
+  border-bottom: none;
+}

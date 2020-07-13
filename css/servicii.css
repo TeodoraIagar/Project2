@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility calsses */
+.bg-black{
+  background: #000000;
+}
+
+.bg-opac{
+  background: rgba(0, 0 , 0, 0);
+}
+
+.bg-olive{
+  background: #000000ea;
+}
+
+.bg-caramel{
+  background: #A87420;
+}
+
+.font-display{
+  font-family: 'Playfair Display', serif;
+}
+
+.font-lora{
+  font-family: 'Lora', serif;
+}
+
+.clr{
+  clear: both;
+}
+
+body{
+  max-height: 800px;
+}
+
+/* Navigation bar */
+.navbar-logo {
+  width: 150px;
+  height: 100px;
+}
+
+/* Section: Servicii */
+.line-bottom{
+  border-bottom: 1px solid #000000ea;
+}
+
+.fas{
+  background: #A87420;
+  border-radius: 1px;
+}
+
+.container-servicii{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box p{
+  font-size: 14px;
+}
+
+.box{
+  height: 340px;
+  border-right: 1px solid #000000ea;
+}
+
+.btn:hover{
+  transition: all 0.5s ease-out;
+  background: #a8742091;
+}
+
+/* Section: footer */
+#footer p{
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-1{
+  height: 39px;
+}
