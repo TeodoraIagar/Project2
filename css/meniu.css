@@ -1,0 +1,81 @@
+/* Utility calsses */
+.bg-black{
+  background: #000000;
+}
+
+.bg-opac{
+  background: rgba(0, 0 , 0, 0);
+}
+
+.bg-olive{
+  background: #000000ea;
+}
+
+.bg-caramel{
+  background: #A87420;
+}
+
+.font-display{
+  font-family: 'Playfair Display', serif;
+}
+
+.font-lora{
+  font-family: 'Lora', serif;
+}
+
+.clr{
+  clear: both;
+}
+
+/* Navigation bar */
+.navbar-logo {
+  width: 150px;
+  height: 100px;
+}
+
+/* Meniu */
+.container-1{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.7rem; 
+  background: #ffffff;
+  margin: 10px auto;
+}
+
+.title{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 1.8rem;
+  color: black;
+}
+
+.container-1 h3{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: rgba(24, 22, 22, 0.877);
+  margin: 0;
+  padding: 0;
+}
+
+.container-1 p {
+  font-family: 'Lora', serif;
+  font-size: 0.8rem;
+  color:rgba(85, 105, 90, 1);
+  margin: 0;
+  padding: 0; 
+}
+
+/* Section: footer */
+#footer p{
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-1{
+  height: 39px;
+}

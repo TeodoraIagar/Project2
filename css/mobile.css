@@ -1,0 +1,42 @@
+/* Meniu */
+.container-1{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.7rem;
+  margin: 10px auto;
+}
+
+/* Section: Servicii */
+.container-servicii{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box{
+  border-right: none;
+  border-bottom: 1px solid #000000ea;
+}
+
+.box:nth-child(4){
+  border-bottom: none;
+}
+
+.box:nth-child(1),
+.box:nth-child(3){
+  border-right: none;
+}
+
+.box:nth-child(3){
+  border-bottom: 1px solid #000000ea;
+}
+
+/* Section: Galerie */
+.row .column{
+  flex: 100%;
+}
+
+/* Footer */
+#footer-1 p{
+  font-size: 12px;
+}
